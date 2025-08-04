@@ -28,6 +28,7 @@ body {
 
 input {
     height: 1.3rem;
+    width: 17.5rem;
     padding: 0.5rem;
     font-size: 1.2rem;
     margin: 0.9rem 4.3rem;
@@ -54,4 +55,19 @@ button {
 button:hover {
     background-color: #4682B4;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.botoes {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botoes button {
+    width: 4.2rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
 }

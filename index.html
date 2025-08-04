@@ -12,13 +12,17 @@
     <div class="container">
         <div class="calculadora">
             <h1>Calculadora</h1>
-            <input id="num1" type="number" />
-            <input id="num2" type="number" />
-            <button onclick="calcular()">Somar</button>
-            <input id="output" type="text" readonly />
-        </div>
-        <div class="historico">
+            <input id="num1" type="number" placeholder=""/>
+            <input id="num2" type="number" placeholder=""/>
 
+            <div class="botoes">
+                <button onclick="calcular('+')">+</button>
+                <button onclick="calcular('-')">−</button>
+                <button onclick="calcular('*')">×</button>
+                <button onclick="calcular('/')">÷</button>
+            </div>
+
+            <input id="output" type="text" readonly placeholder=""/>
         </div>
     </div>
 
